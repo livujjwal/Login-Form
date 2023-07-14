@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <form>
+      <table border="1">
+        <tr>
+          <td><lable for="firstName">First Name*</lable></td>
+          <td>
+            <input type="text" name="First Name" id="firstName" placeholder="First Name" required/>
+          </td>
+        </tr>
+        <tr>
+          <td><lable for="lastName">Last Name*</lable></td>
+          <td>
+            <input type="text" name="Last Name" id="lastName" placeholder="Last Name" required/>
+          </td>
+        </tr>
+        <tr>
+          <td><lable for="email">Email</lable></td>
+          <td>
+            <input type="email" name="Email" id="Email" placeholder="example@gmail.com" required/>
+          </td>
+        </tr>
+        <tr>
+          <td><lable for="gender">Gender</lable></td>
+          <td>
+            <label><input type="radio" name="gender" value="male" id="gender" />Male</label>
+            <label><input type="radio" name="gender" value="female" id="gender" />Female</label>
+          </td>
+        </tr>
+        <tr>
+          <td><lable for="DoB">Date of Birth</lable></td>
+          <td><input type="date" name="DoB" id="DoB" required /></td>
+        </tr>
+        <tr>
+          <td><lable for="country">Country</lable></td>
+          <td>
+            <select name="country" id="country" required>
+              <option value="India">India</option>
+              <option value="Pakistan">Pakistan</option>
+              <option value="Nepal">Nepal</option>
+              <option value="Dubai">Dubai</option>
+              <option value="China">China</option>
+              <option value="Srilanka">Srilanka</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><lable for="interest">Interest</lable></td>
+          <td>
+            <label><input type="checkbox" name="interest" id="interest"/>Coding</label>
+            <label><input type="checkbox" name="interest" id="interest"/>Reading</label>
+            <label><input type="checkbox" name="interest" id="interest"/>Travelling</label>
+            <label><input type="checkbox" name="interest" id="interest"/>Party</label>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2"><button type="submit">Submit</button></td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
