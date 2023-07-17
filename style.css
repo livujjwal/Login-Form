@@ -1,0 +1,14 @@
+table{
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: black;
+}
+h1{
+    padding-left: 50px;
+    padding-right: 50px;
+    color: cadetblue;
+}
+.button{
+    background-color: dodgerblue;
+        color:white;
+}
